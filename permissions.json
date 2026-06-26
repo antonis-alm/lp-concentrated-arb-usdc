@@ -1,0 +1,69 @@
+[
+  {
+    "address": "0x38869bf66a61cF6bDB996A6aE40D5853Fd43B526",
+    "clearance": 2,
+    "executionOptions": 2,
+    "functions": [
+      {
+        "selector": "0x8d80ff0a",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "clearance": 2,
+    "executionOptions": 1,
+    "functions": [
+      {
+        "selector": "0x04e45aaf",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "clearance": 2,
+    "executionOptions": 0,
+    "functions": [
+      {
+        "selector": "0x095ea7b3",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "clearance": 2,
+    "executionOptions": 0,
+    "functions": [
+      {
+        "selector": "0x095ea7b3",
+        "wildcarded": true
+      }
+    ]
+  },
+  {
+    "address": "0xC36442b4a4522E871399CD717aBDD847Ab11FE88",
+    "clearance": 2,
+    "executionOptions": 0,
+    "functions": [
+      {
+        "selector": "0x0c49ccbe",
+        "wildcarded": true
+      },
+      {
+        "selector": "0x42966c68",
+        "wildcarded": true
+      },
+      {
+        "selector": "0x88316456",
+        "wildcarded": true
+      },
+      {
+        "selector": "0xfc6f7865",
+        "wildcarded": true
+      }
+    ]
+  }
+]

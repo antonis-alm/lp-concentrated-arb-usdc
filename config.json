@@ -1,0 +1,55 @@
+{
+    "chain": "arbitrum",
+    "protocol": "uniswap_v3",
+    "pool": "ARB/USDC/3000",
+    "base_token": "ARB",
+    "quote_token": "USDC",
+    "base_token_decimals": 18,
+    "quote_token_decimals": 6,
+
+    "range_half_width_pct": "0.5",
+    "range_lower_multiplier": "0.995",
+    "range_upper_multiplier": "1.005",
+
+    "deploy_ratio_of_available": "0.999",
+    "inventory_target_base_usd_weight": "0.50",
+    "inventory_imbalance_tolerance_pct": "0.25",
+    "min_swap_fraction_of_portfolio": "0.002",
+
+    "max_swap_slippage_pct": "0.5",
+
+    "rebalance_guard_enabled": true,
+    "rebalance_cost_estimate_bps_of_notional": "8",
+    "rebalance_guard_fee_cover_ratio": "1.0",
+
+    "single_position_only": true,
+    "close_before_open": true,
+    "partial_rebalance": false,
+    "auto_widen": false,
+
+    "force_action": "",
+    "force_position_id": null,
+    "force_swap_from_token": "ARB",
+    "force_swap_to_token": "USDC",
+    "force_swap_amount_usd": "25",
+
+    "token_funding": [
+        {
+            "symbol": "ARB",
+            "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+            "amount": "3",
+            "amount_type": "usd"
+        },
+        {
+            "symbol": "USDC",
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "amount": "3",
+            "amount_type": "usd"
+        }
+    ],
+    "anvil_funding": {
+        "ETH": 10,
+        "ARB": 10000,
+        "USDC": 10000
+    }
+}
